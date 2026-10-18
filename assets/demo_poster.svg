@@ -1,0 +1,127 @@
+<svg viewBox="0 0 960 640" width="100%" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>麦麦智选 McFit 演示海报</title>
+  <desc>双引擎+结合层架构、真实方案卡示例与创意情景一览</desc>
+  <defs>
+    <linearGradient id="banner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC72C"/>
+      <stop offset="0.55" stop-color="#FF9E1B"/>
+      <stop offset="1" stop-color="#DA291C"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFF6E6"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF3D6"/>
+      <stop offset="1" stop-color="#FFE3A8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFC72C" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFC72C" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#C9A24B" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="960" height="640" fill="#FFF8EF"/>
+  <rect x="0" y="0" width="960" height="640" fill="#FFFDF8" opacity="0.4"/>
+
+  <!-- header banner -->
+  <rect x="24" y="24" width="912" height="112" rx="22" fill="url(#banner)" filter="url(#shadow)"/>
+  <circle cx="86" cy="80" r="34" fill="#FFFFFF" opacity="0.92"/>
+  <text x="86" y="92" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="700" fill="#DA291C">M</text>
+  <text x="138" y="76" font-family="sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">麦麦智选</text>
+  <text x="320" y="76" font-family="sans-serif" font-size="22" font-weight="600" fill="#FFF3D6">McFit</text>
+  <text x="140" y="110" font-family="sans-serif" font-size="16" fill="#FFFFFF" opacity="0.95">智能饮食 × 活动推荐 · 麦当劳 mcd-mcp 开发者创新大赛参赛作品</text>
+
+  <!-- section label -->
+  <text x="40" y="190" font-family="sans-serif" font-size="18" font-weight="700" fill="#DA291C">核心架构 · 双引擎 + 结合层</text>
+
+  <!-- engine cards -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="206" width="240" height="108" rx="16" fill="url(#card)" stroke="#F0D9A8" stroke-width="1.5"/>
+  </g>
+  <circle cx="76" cy="242" r="18" fill="#DA291C"/>
+  <text x="76" y="249" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#FFFFFF">🍔</text>
+  <text x="104" y="240" font-family="sans-serif" font-size="18" font-weight="700" fill="#2C2C2A">饮食引擎</text>
+  <text x="60" y="270" font-family="sans-serif" font-size="13" fill="#5F5E5A">按目标筛餐品 · 营养库</text>
+  <text x="60" y="290" font-family="sans-serif" font-size="13" fill="#5F5E5A">健身/控糖/儿童/上班族</text>
+
+  <g filter="url(#shadow)">
+    <rect x="360" y="206" width="240" height="108" rx="16" fill="url(#core)" stroke="#FFB400" stroke-width="2.5"/>
+  </g>
+  <circle cx="396" cy="242" r="20" fill="url(#glow)"/>
+  <text x="396" y="249" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#2C2C2A">⚡</text>
+  <text x="424" y="240" font-family="sans-serif" font-size="18" font-weight="800" fill="#B5430C">结合层 ★核心</text>
+  <text x="380" y="270" font-family="sans-serif" font-size="13" fill="#7A4A12">餐品 × 券 / 活动交叉</text>
+  <text x="380" y="290" font-family="sans-serif" font-size="13" fill="#7A4A12">calculate-price 实算到手价</text>
+
+  <g filter="url(#shadow)">
+    <rect x="680" y="206" width="240" height="108" rx="16" fill="url(#card)" stroke="#F0D9A8" stroke-width="1.5"/>
+  </g>
+  <circle cx="716" cy="242" r="18" fill="#2E7D32"/>
+  <text x="716" y="249" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#FFFFFF">🎟️</text>
+  <text x="744" y="240" font-family="sans-serif" font-size="18" font-weight="700" fill="#2C2C2A">活动引擎</text>
+  <text x="700" y="270" font-family="sans-serif" font-size="13" fill="#5F5E5A">当期券 / 活动 / 抽奖</text>
+  <text x="700" y="290" font-family="sans-serif" font-size="13" fill="#5F5E5A">自动匹配最省钱</text>
+
+  <!-- arrows -->
+  <path d="M292 258 l24 0 m-8 -7 l8 7 l-8 7" stroke="#DA291C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M612 258 l24 0 m-8 -7 l8 7 l-8 7" stroke="#DA291C" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- sample plan card -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="338" width="548" height="196" rx="18" fill="url(#card)" stroke="#F0D9A8" stroke-width="1.5"/>
+  </g>
+  <rect x="40" y="338" width="548" height="44" rx="18" fill="#DA291C"/>
+  <rect x="40" y="362" width="548" height="20" fill="#DA291C"/>
+  <text x="60" y="366" font-family="sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">🍽️ 方案卡 · 增肌午餐 @ 上海人民广场</text>
+
+  <text x="60" y="408" font-family="sans-serif" font-size="13.5" fill="#2C2C2A">板烧鸡腿堡</text>
+  <text x="560" y="408" text-anchor="end" font-family="sans-serif" font-size="12.5" fill="#5F5E5A">391kcal · 蛋白23g</text>
+  <text x="60" y="432" font-family="sans-serif" font-size="13.5" fill="#2C2C2A">中薯条</text>
+  <text x="560" y="432" text-anchor="end" font-family="sans-serif" font-size="12.5" fill="#5F5E5A">289kcal · 蛋白4g</text>
+  <text x="60" y="456" font-family="sans-serif" font-size="13.5" fill="#2C2C2A">无糖可口可乐(中)</text>
+  <text x="560" y="456" text-anchor="end" font-family="sans-serif" font-size="12.5" fill="#5F5E5A">0kcal</text>
+  <text x="60" y="480" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#2C2C2A">合计营养</text>
+  <text x="560" y="480" text-anchor="end" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#2C2C2A">680kcal · 蛋白27g</text>
+
+  <rect x="60" y="496" width="508" height="24" rx="8" fill="#EAF3DE"/>
+  <text x="72" y="513" font-family="sans-serif" font-size="12.5" fill="#27500A">🎟️ 免费脆薯饼券 → 替换中薯条（省 ¥8.5）</text>
+
+  <rect x="60" y="528" width="508" height="0" />
+  <text x="60" y="540" font-family="sans-serif" font-size="13" fill="#5F5E5A">原价 <tspan text-decoration="line-through" fill="#9A9890">¥46.5</tspan></text>
+  <rect x="200" y="522" width="252" height="34" rx="10" fill="#FBEAF0"/>
+  <text x="216" y="545" font-family="sans-serif" font-size="16" font-weight="800" fill="#993556">到手价 ¥38.0 · 省 ¥8.5</text>
+
+  <!-- scenario chips -->
+  <g filter="url(#shadow)">
+    <rect x="612" y="338" width="308" height="196" rx="18" fill="url(#card)" stroke="#F0D9A8" stroke-width="1.5"/>
+  </g>
+  <text x="632" y="368" font-family="sans-serif" font-size="16" font-weight="700" fill="#DA291C">创意情景</text>
+
+  <rect x="632" y="382" width="132" height="34" rx="17" fill="#FFF1D6"/>
+  <text x="698" y="404" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#B5430C">🔥 积分急救+抽奖</text>
+  <rect x="776" y="382" width="124" height="34" rx="17" fill="#FFF1D6"/>
+  <text x="838" y="404" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#B5430C">🎉 亲子派对</text>
+
+  <rect x="632" y="424" width="124" height="34" rx="17" fill="#EAF3DE"/>
+  <text x="694" y="446" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#27500A">✈️ 出差落地</text>
+  <rect x="768" y="424" width="132" height="34" rx="17" fill="#EAF3DE"/>
+  <text x="834" y="446" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#27500A">🌙 深夜/情绪</text>
+
+  <rect x="632" y="466" width="124" height="34" rx="17" fill="#E7F0FB"/>
+  <text x="694" y="488" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#1F5BA8">🎲 盲盒摇一摇</text>
+  <rect x="768" y="466" width="132" height="34" rx="17" fill="#E7F0FB"/>
+  <text x="834" y="488" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#1F5BA8">🏃 健身/控糖</text>
+
+  <text x="632" y="516" font-family="sans-serif" font-size="12" fill="#5F5E5A">覆盖 6 类人群 · 9 大情景</text>
+  <text x="632" y="538" font-family="sans-serif" font-size="12" fill="#5F5E5A">可运行源码 + 完整 Skill</text>
+
+  <!-- footer disclaimer -->
+  <rect x="24" y="556" width="912" height="56" rx="14" fill="#FBEFD9"/>
+  <text x="48" y="580" font-family="sans-serif" font-size="12.5" fill="#7A4A12">* 非麦当劳官方产品，仅供参考，不构成医疗/营养专业建议；餐品、价格及供应状态以官方实时结果为准。</text>
+  <text x="48" y="600" font-family="sans-serif" font-size="12.5" fill="#7A4A12">* 基于麦当劳官方 mcd-mcp 能力，已端到端跑通真实数据；Token 仅以环境变量占位，无真实密钥泄露。</text>
+</svg>

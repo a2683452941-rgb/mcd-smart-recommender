@@ -24,11 +24,11 @@
 
 ## 演示海报
 
-![麦麦智选演示海报](mcd-smart-recommender/assets/demo_poster.svg)
+![麦麦智选演示海报](assets/demo_poster.svg)
 
 ## 方案卡演示（细节）
 
-![麦麦智选方案卡](mcd-smart-recommender/assets/demo_card.svg)
+![麦麦智选方案卡](assets/demo_card.svg)
 
 ## 功能概览
 
